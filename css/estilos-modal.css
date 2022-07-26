@@ -1,0 +1,144 @@
+.content_modal {
+    width: auto;
+    height: 900px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: none;
+}
+
+
+.modal {
+    width: 430px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(184, 183, 183);
+    padding: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 65px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+
+.content_titulo{
+    padding: 16px;
+}
+
+.content_close_img {
+    display: inline;
+    position: absolute;
+    left: 92%;
+}
+
+.content_titulo p {
+    margin: 0px;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #606770
+}
+
+.content_titulo h1 {
+    margin: 0px;
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#formModal {
+    padding: 17px;
+    border-top: 1px solid #dadde1;
+}
+
+#nombre, #apellido {
+    display: inline-block;
+    width: 42%;
+    padding: 11px;
+    text-indent: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: #dddfe2;
+}
+
+#cel-o-correo, #password, #genero-opcional {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 11px;
+    text-indent: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: #dddfe2;
+}
+
+.content_label p {
+    display: inline-block;
+}
+
+.selectFecha {
+    display: inline-block;
+    width: 30%;
+    padding: 11px;
+    text-indent: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: #dddfe2;    
+}
+
+.orientacion_sexual {
+    height: 50px;
+    position: relative;
+}
+
+
+
+.radioButton {
+    padding: 11px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#radio_mujer {
+    position: absolute;
+    left: 2%;
+}
+
+#radio_hombre {
+    position: absolute;
+    left: 30%;
+}
+
+#radio_personalizado {
+    position: absolute;
+    left: 60%;
+}
+
+#pronombre {
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    padding: 11px;
+    text-indent: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: #dddfe2;
+}
+
+.letra_chica {
+    font-family: inherit;
+    font-size: 12px;
+    display: inline;
+}

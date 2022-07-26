@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook - Inicia sesión o regístrate</title>
+    <link rel="stylesheet" href="css/Normalize-v8.0.1.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos-modal.css">
+</head>
+<body>
+    <div class="home">
+        <div class="fijo" id="contenedorImgDesc">
+            <div class="img">
+                <img src="images/FACEBOOK.svg" alt="Facebook">
+            </div>
+            <div class="descripción">
+                <h2>
+                    Facebook te ayuda a comunicarte y compartir con las personas que forman parte de tu vida.
+                </h2>
+            </div>
+        </div>
+        <div class="fijo" id="contenedorForm">
+            <form id="formInicio">
+                <input id="text" type="text" placeholder="Correo electrónico o número de teléfono">
+                <input id="pass" type="password" placeholder="Contraseña">
+                <input id="iniciarSesión" type="submit" value="Iniciar sesión">
+                <div class="contenedorA">
+                    <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">¿Olvidaste tu contraseña?</a>
+                </div>
+                <hr>
+                <input id="crearCuenta" type="button" value="Crear cuenta nueva">
+            </form>
+            <div class="contenedorP">   
+                <p><a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Crea una página</a> para una celebridad, una marca o un negocio.</p>
+            </div>
+        </div>
+        
+        <!--Ventana modal-->
+
+        <div class="content_modal">
+            <div class="modal">
+                <div class="content_titulo">
+                    <h1>Registrarte</h1>
+                    <div class="content_close_img" id="close-image">
+                        <img src="images/close-image.png" alt="img-X">
+                    </div>
+                    <p>Es rápido y fácil.</p>
+                </div>
+                <form id="formModal" method="dialog">
+                    <div class="content_inputs_form">
+                        <input id="nombre" type="text" placeholder="Nombre">
+                        <input id="apellido" type="text" placeholder="Apellido">
+                        <input id="cel-o-correo" type="text" placeholder="Número de celular o correo electrónico">
+                        <input id="password" type="password" placeholder="Contraseña nueva">
+                    </div>
+                    <div class="content_label">
+                        <p>Fecha de nacimiento</p>
+                        <img src="images/signo-de-pregunta.png" alt="img-?"> 
+                    </div>
+                    <div >
+                        <select class="selectFecha" name="dia" id="dia">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                        </select>
+                        <select class="selectFecha" name="mes" id="mes">}
+                        <option>Enero</option>
+                        <option>Febrero</option>
+                        <option>Marzo</option>
+                        <option>Abril</option>
+                        <option>Mayo</option>
+                        <option>Junio</option>
+                        <option>Julio</option>
+                        <option>Agosto</option>
+                        <option>Septiembre</option>
+                        <option>Octubre</option>
+                        <option>Noviembre</option>
+                        <option>Diciembre</option>
+                        </select>
+                        <select class="selectFecha" name="año" id="año">
+                        <option>2022</option>
+                        <option>2021</option>
+                        <option>2020</option>
+                        <option>2019</option>
+                        <option>2018</option>
+                        <option>2017</option>
+                        <option>2016</option>
+                        <option>2015</option>
+                        <option>2014</option>
+                        <option>2013</option>
+                        <option>2012</option>
+                        <option>2011</option>
+                        <option>2010</option>
+                        <option>2009</option>
+                        <option>2008</option>
+                        <option>2007</option>
+                        <option>2006</option>
+                        <option>2005</option>
+                        <option>2004</option>
+                        <option>2003</option>
+                        <option>2002</option>
+                        <option>2001</option>
+                        <option>2000</option>
+                        <option>1999</option>
+                        <option>1998</option>
+                        <option>1997</option>
+                        <option>1996</option>
+                        <option>1995</option>
+                        <option>1994</option>
+                        <option>1993</option>
+                        <option>1992</option>
+                        <option>1991</option>
+                        <option>1990</option>
+                        </select>
+                    </div>
+                    <div class="content_label">
+                        <p>Sexo</p>
+                        <img src="images/signo-de-pregunta.png" alt="img-?">
+                    </div>
+                    <div class="orientacion_sexual">
+                        <span class="radioButton" id="radio_mujer">
+                            <label for="mujer">Mujer</label>
+                            <input type="radio" name="input_radio" id="mujer">
+                        </span>
+                        <span class="radioButton" id="radio_hombre">
+                            <label for="hombre">Hombre</label>
+                            <input type="radio" name="input_radio" id="hombre">
+                        </span>
+                        <span class="radioButton" id="radio_personalizado">
+                            <label for="personalizado">Personalizado</label>
+                            <input type="radio" name="input_radio" id="personalizado">
+                        </span>
+                    </div>
+                    <div class="content_personalizado">
+                        <div class="content_pronombre">
+                            <select id="pronombre">
+                                <option value="">Femenino: "Salúdala por su cumpleaños"</option>
+                                <option value="">Masculino: "Salúdalo por su cumpleaños"</option>
+                                <option value="">Neutro: "Salúdalo(a) por su cumpleaños"</option>
+                            </select>
+                        </div>
+                        <div class="content_p">
+                            <p>Tu pronombre será visible para todos.</p>
+                        </div>
+                        <div class="content_genero_opcional">
+                            <input id="genero-opcional" type="text" placeholder="Género (Opcional)">
+                        </div>
+                    </div>
+                    <div class="content_letra">
+                        <p class="letra_chica">Es posible que las personas que usan nuestro servicio hayan subido tu información de 
+                        contacto a Facebook. <a href="">Obtén más información.</a></p>
+                    </div>
+                    <div class="content_letra">
+                        <p class="letra_chica">Al hacer clic en "Registrarte", aceptas nuestras <a href="">Condiciones</a>, la 
+                        <a href="">Politica de datos</a> y la <a href="">Política de cookies</a>. Es posible que te enviemos 
+                        notificaciones por SMS, que puedes desactivar cuando quieras.</p>
+                    </div>
+                    <div>
+                        <input type="submit" value="Registrarse">
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    <script src="js/modal.js"></script>
+</body>
+</html>
