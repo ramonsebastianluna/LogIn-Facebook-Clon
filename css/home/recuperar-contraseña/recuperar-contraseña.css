@@ -1,0 +1,11 @@
+.login__link-olvidaste-contraseña {
+    color: #1877f2;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.login__link-olvidaste-contraseña:hover {
+    text-decoration: underline;
+}

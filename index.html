@@ -1,13 +1,52 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-ES">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Facebook - Inicia sesión o regístrate</title>
+    <!--Link normalize-->
     <link rel="stylesheet" href="css/Normalize-v8.0.1.css">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/estilos-modal.css">
+    <!--Links estilos home-->
+    <link rel="stylesheet" href="./css/home/container-main/container-main.css">
+    <link rel="stylesheet" href="./css/home/main-section/main-section.css">
+    <link rel="stylesheet" href="./css/home/section-eslogan/section-eslogan.css">
+    <link rel="stylesheet" href="./css/home/section-form/section-form.css">
+    <link rel="stylesheet" href="./css/home/form-login/form-login.css">
+    <link rel="stylesheet" href="./css/home/botones-login/botones-login.css">
+    <link rel="stylesheet" href="./css/home/recuperar-contraseña/recuperar-contraseña.css">
+    <link rel="stylesheet" href="./css/home/linea-divisoria/linea-divisoria.css">    
+    <link rel="stylesheet" href="./css/home/eslogan-form/eslogan-form.css">
 </head>
 <body>
+    <div class="container-main">
+        <main class="main__section">
+            <section class="section__eslogan">
+                <div class="eslogan__imagen">
+                    <img src="./img/FACEBOOK.svg" alt="Logo facebook">
+                </div>
+                <div class="eslogan__texto">
+                    <p>Facebook te ayuda a comunicarte y compartir con las personas que forman parte de tu vida.</p>
+                </div>
+            </section>
+            <section class="section__form">
+                <form class="form__login">
+                    <input class="login__email" type="email" placeholder="Correo electrónico o número de teléfono">
+                    <input class="login__password" type="password" placeholder="Contraseña">
+                    <input class="login__iniciar-sesion" type="submit" value="Iniciar sesión">
+                    <a class="login__link-olvidaste-contraseña" href="#">¿Olvidaste tu contraseña?</a>
+                    <div class="linea-divisoria"></div>
+                    <button class="login__crear-cuenta-nueva">Crear cuenta nueva</button>
+                </form>
+                <div class="form__eslogan-form">
+                    <p class="eslogan-form__texto"><a class="eslogan-form__link-crea-página" href="">Crea una página</a> para una celebridad, una marca o un negocio.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+
+
+    <!--
     <div class="home">
         <div class="fijo" id="contenedorImgDesc">
             <div class="img">
@@ -34,9 +73,9 @@
                 <p><a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Crea una página</a> para una celebridad, una marca o un negocio.</p>
             </div>
         </div>
-        
+        -->
         <!--Ventana modal-->
-
+        <!--
         <div class="content_modal">
             <div class="modal">
                 <div class="content_titulo">
@@ -189,7 +228,7 @@
                 </form>
             </div>
         </div>
-        </div>
-    <script src="js/modal.js"></script>
+    </div>
+    <script src="js/modal.js"></script>-->
 </body>
 </html>

@@ -1,0 +1,22 @@
+.form__eslogan-form {
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.eslogan-form__link-crea-página {
+    color: #000000;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.eslogan-form__link-crea-página:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px; /*Establece el grosor del subrayado*/
+}
+
+.eslogan-form__texto {
+    margin: auto;
+    text-align: center;
+}

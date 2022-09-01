@@ -1,0 +1,48 @@
+.login__email, .login__password {
+    height: 14%;
+    margin-bottom: 15px;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    text-indent: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+
+.login__email, .login__password::placeholder{
+    color: #9b9e9e;
+}
+
+.login__iniciar-sesion {
+    height: 14%;
+    margin-bottom: 15px;
+    background-color: #267df0;
+    border: none;
+    border-radius: 5px;
+    font-family: Helvetica, Arial, sans-serif;  
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.login__iniciar-sesion:hover {
+    background-color: #166fe5;
+    cursor: pointer;
+}
+
+.login__crear-cuenta-nueva {
+    height: 14%;
+    width: 50%;
+    margin: auto;
+    background-color: #3bad24;
+    border: none;
+    border-radius: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.login__crear-cuenta-nueva:hover {
+    background-color: #36a420;
+    cursor: pointer;
+}
