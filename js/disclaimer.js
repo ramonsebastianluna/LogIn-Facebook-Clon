@@ -1,0 +1,1 @@
+alert("DISCLAIMER: Este sítio web es un Clon desarrollado con fines prácticos. SITIO NO OFICIAL.");
